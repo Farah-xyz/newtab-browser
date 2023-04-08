@@ -1,0 +1,121 @@
+#clock {
+    align-items:  center;
+    vertical-align: middle;
+    font-weight: bold;
+    color: #dedbeb;
+    font-size: 80px;
+    text-shadow: 5px 5px 5px #eb3f7f10;
+}
+
+#box1 {
+    background-color: #2a2331;
+    color: #ed3f7f;
+    margin: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 5px #eb3f7f10;
+    width:  25%;
+    max-width: 300px;
+    font-size: 32px;
+    transition: transform .2s;
+}
+
+#box2 {
+    background-color: #2a2331;
+    color: #9985d1;
+    margin: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 5px #eb3f7f10;
+    width:  25%;
+    max-width: 300px;
+    font-size: 32px;
+    transition: transform .2s;
+}
+
+#box3 {
+    background-color: #2a2331;
+    color: #eacac0;
+    margin: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 8px;
+    width:  25%;
+    box-shadow: 5px 5px 5px 5px #eb3f7f10;
+    max-width: 300px;
+    font-size: 32px;
+    transition: transform .2s;
+}
+
+body {
+    background-color: #11121D;
+    margin: 0;
+    align-items:  center;
+    vertical-align: middle;
+    font-weight: bold;
+    color: #dedbeb;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color:  inherit;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#box1:hover {
+    transform: scale(1.3);
+}
+
+#box2:hover {
+    transform: scale(1.3);
+}
+
+#box3:hover {
+    transform: scale(1.3);
+}
+
+#searchbar:hover {
+    width: 70%;
+    max-width: 925px;
+}
+
+#searchbar:focus {
+    width: 70%;
+    max-width: 925px;
+}
+
+#searchbar {
+    width: 35%;
+    height: 45px;
+    max-width: 925px;
+    border: 5px solid #2a2331;
+    background-color: #2a2331;
+    color: #c678dd;
+    font-family: inherit;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 5px #eb3f7f10;
+    transition: width 0.5s;
+    transition-delay: 0.5s;
+}
+
+.site {
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    top:50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-family: 'JetBrains Mono Nerd Font', Tahoma, Geneva, Verdana, sans-serif;
+}
